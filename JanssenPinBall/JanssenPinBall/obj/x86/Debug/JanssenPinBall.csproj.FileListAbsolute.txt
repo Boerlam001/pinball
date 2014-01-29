@@ -1,0 +1,8 @@
+c:\users\student\documents\visual studio 2010\Projects\JanssenPinBall\JanssenPinBall\JanssenPinBall\bin\x86\Debug\JanssenPinBall.exe
+c:\users\student\documents\visual studio 2010\Projects\JanssenPinBall\JanssenPinBall\JanssenPinBall\bin\x86\Debug\JanssenPinBall.pdb
+c:\users\student\documents\visual studio 2010\Projects\JanssenPinBall\JanssenPinBall\JanssenPinBall\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\student\documents\visual studio 2010\Projects\JanssenPinBall\JanssenPinBall\JanssenPinBall\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\student\documents\visual studio 2010\Projects\JanssenPinBall\JanssenPinBall\JanssenPinBall\obj\x86\Debug\JanssenPinBall.exe
+c:\users\student\documents\visual studio 2010\Projects\JanssenPinBall\JanssenPinBall\JanssenPinBall\obj\x86\Debug\JanssenPinBall.pdb
+c:\users\student\documents\visual studio 2010\Projects\JanssenPinBall\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\BluePinBallLogo.xnb
+c:\users\student\documents\visual studio 2010\Projects\JanssenPinBall\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Tahoma.xnb
