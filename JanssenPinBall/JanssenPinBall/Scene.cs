@@ -17,10 +17,10 @@ namespace JanssenPinBall
     /// </summary>
     public class Scene : Microsoft.Xna.Framework.DrawableGameComponent
     {
-        protected Game1 game1;
+        public Game1 game1;
 
         // Declare a sprite batch for this scene
-        protected SpriteBatch spriteBatch; 
+        public SpriteBatch spriteBatch; 
         
         public Scene(Game game)
             : base(game)

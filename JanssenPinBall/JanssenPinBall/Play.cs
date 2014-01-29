@@ -17,6 +17,8 @@ namespace JanssenPinBall
     /// </summary>
     public class Play : Scene
     {
+        public PinBall pinBall;
+
         public Play(Game game)
             : base(game)
         {
@@ -30,6 +32,8 @@ namespace JanssenPinBall
         public override void Initialize()
         {
             // TODO: Add your initialization code here
+            pinBall = new PinBall(this, new Vector2(400, 200));
+            game1.Components.Add(pinBall);
 
             base.Initialize();
         }
@@ -57,6 +61,9 @@ namespace JanssenPinBall
             GraphicsDevice.Clear(Color.White);
 
             // TODO: Add your drawing code here
+            //spriteBatch.Begin(SpriteSortMode.Texture, BlendState.AlphaBlend);
+            pinBall.Draw(gameTime);
+            //spriteBatch.End();
 
             base.Draw(gameTime);
         }

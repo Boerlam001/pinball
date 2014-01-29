@@ -19,6 +19,15 @@
       <Output>c:\users\student\documents\visual studio 2010\Projects\JanssenPinBall\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Tahoma.xnb</Output>
       <Time>2014-01-29T13:41:24.7640713-08:00</Time>
     </Item>
+    <Item>
+      <Source>SilverBall50x50.png</Source>
+      <Name>SilverBall50x50</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\student\documents\visual studio 2010\Projects\JanssenPinBall\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\SilverBall50x50.xnb</Output>
+      <Time>2014-01-29T14:14:41.3242746-08:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
