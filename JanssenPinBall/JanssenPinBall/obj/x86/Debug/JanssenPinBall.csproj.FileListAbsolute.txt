@@ -7,3 +7,12 @@ c:\users\student\documents\visual studio 2010\Projects\JanssenPinBall\JanssenPin
 c:\users\student\documents\visual studio 2010\Projects\JanssenPinBall\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\BluePinBallLogo.xnb
 c:\users\student\documents\visual studio 2010\Projects\JanssenPinBall\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Tahoma.xnb
 c:\users\student\documents\visual studio 2010\Projects\JanssenPinBall\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\SilverBall50x50.xnb
+C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\BluePinBallLogo.xnb
+C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\SilverBall50x50.xnb
+C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Tahoma.xnb
+C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\JanssenPinBall.exe
+C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\JanssenPinBall.pdb
+C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\obj\x86\Debug\JanssenPinBall.csprojResolveAssemblyReference.cache
+C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\obj\x86\Debug\JanssenPinBall.exe
+C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\obj\x86\Debug\JanssenPinBall.pdb
