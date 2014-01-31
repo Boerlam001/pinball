@@ -16,3 +16,8 @@ C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\J
 C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\obj\x86\Debug\JanssenPinBall.exe
 C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\obj\x86\Debug\JanssenPinBall.pdb
+C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Circle110Blue.xnb
+C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Circle110BlueGrad.xnb
+C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Circle110Black.xnb
+C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\LeftFlipper120x30.xnb
+C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\RightFlipper120x30.xnb

@@ -27,6 +27,10 @@ namespace JanssenPinBall
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
 
+            // Set the window size
+            graphics.PreferredBackBufferWidth = 800;
+            graphics.PreferredBackBufferHeight = 600;
+
             currentState = nextState = GameState.START;
             currentScene = new Start(this);
             Components.Add(currentScene);

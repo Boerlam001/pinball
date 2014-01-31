@@ -24,17 +24,17 @@ namespace JanssenPinBall
         Texture2D ballTexture;
 
         // Declare a vectore to hold the position of the center of hte ball
-        Vector2 ballCenter = Vector2.Zero;
+        public Vector2 ballCenter = Vector2.Zero;
 
         // Declare a vector to hold the position of the upper left corner of
         // the sprite
         Vector2 ballPosition = Vector2.Zero;
 
         // Declare a vector to hold the radius of the ball
-        float ballRadius;
+        public float ballRadius;
 
         // Declare a speed Vector
-        Vector2 ballSpeed = Vector2.Zero;
+        public Vector2 ballSpeed = Vector2.Zero;
 
         public PinBall(Play play, Vector2 center)
             : base(play.game1)
@@ -82,6 +82,14 @@ namespace JanssenPinBall
             ballPosition.X = ballCenter.X - ballRadius;
             ballPosition.Y = ballCenter.Y - ballRadius;
 
+            if (ballCenter.Y > play1.game1.GraphicsDevice.Viewport.Height)
+            {
+                this.Initialize();
+                play1.turns--; ;
+            }
+            for (int i = 0; i < play1.numPoints; i++)
+                play1.score += play1.points[i].In(this); 
+
             base.Update(gameTime);
         }
 
@@ -89,11 +97,11 @@ namespace JanssenPinBall
         /// This is called when the game should draw itself.
         /// </summary>
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
-        public override void Draw(GameTime gameTime)
+        public void Draw(GameTime gameTime)
         {
-            play1.spriteBatch.Begin(SpriteSortMode.Texture, BlendState.AlphaBlend);
+            //play1.spriteBatch.Begin(SpriteSortMode.Texture, BlendState.AlphaBlend);
             play1.spriteBatch.Draw(ballTexture, ballPosition, Color.White);
-            play1.spriteBatch.End();
+            //play1.spriteBatch.End();
             
             base.Draw(gameTime);
         }

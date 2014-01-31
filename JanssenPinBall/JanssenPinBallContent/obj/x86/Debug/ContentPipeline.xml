@@ -28,6 +28,51 @@
       <Output>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Tahoma.xnb</Output>
       <Time>2014-01-29T19:36:57.5107696-08:00</Time>
     </Item>
+    <Item>
+      <Source>Circle110Blue.png</Source>
+      <Name>Circle110Blue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Circle110Blue.xnb</Output>
+      <Time>2014-01-30T17:50:19.0519429-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Circle110BlueGrad.png</Source>
+      <Name>Circle110BlueGrad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Circle110BlueGrad.xnb</Output>
+      <Time>2014-01-30T17:50:26.2173528-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Circle110Black.png</Source>
+      <Name>Circle110Black</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Circle110Black.xnb</Output>
+      <Time>2014-01-30T21:47:34.290152-08:00</Time>
+    </Item>
+    <Item>
+      <Source>LeftFlipper120x30.png</Source>
+      <Name>LeftFlipper120x30</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\LeftFlipper120x30.xnb</Output>
+      <Time>2014-01-30T21:47:41.4425611-08:00</Time>
+    </Item>
+    <Item>
+      <Source>RightFlipper120x30.png</Source>
+      <Name>RightFlipper120x30</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\RightFlipper120x30.xnb</Output>
+      <Time>2014-01-30T21:47:47.7559222-08:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

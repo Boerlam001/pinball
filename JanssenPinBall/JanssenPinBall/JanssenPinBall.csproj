@@ -108,11 +108,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Finish.cs" />
+    <Compile Include="Flipper.cs" />
+    <Compile Include="LeftFlipper.cs" />
     <Compile Include="PinBall.cs" />
     <Compile Include="Play.cs" />
+    <Compile Include="Points.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
+    <Compile Include="RightFlipper.cs" />
     <Compile Include="Scene.cs" />
     <Compile Include="Start.cs" />
   </ItemGroup>
