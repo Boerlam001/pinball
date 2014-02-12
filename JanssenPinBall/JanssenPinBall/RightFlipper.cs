@@ -18,7 +18,8 @@ namespace JanssenPinBall
     public class RightFlipper : Flipper
     {
         public RightFlipper(Play play, Vector2[] points, Vector2 pivot, Vector2 origin, string textureName)
-            : base(play, points, pivot, origin, textureName) 
+            : base(play, points, pivot, origin, textureName) 
+
         {
             // TODO: Construct any child components here
         }

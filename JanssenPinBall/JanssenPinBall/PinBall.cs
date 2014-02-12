@@ -82,13 +82,23 @@ namespace JanssenPinBall
             ballPosition.X = ballCenter.X - ballRadius;
             ballPosition.Y = ballCenter.Y - ballRadius;
 
+            Vector2 normal = Vector2.Zero;
+            float bounceFactor = 1.0f;
+            if (play1.leftFlipper.Hit(this, ref normal, ref bounceFactor))
+                ballSpeed = Vector2.Reflect(ballSpeed, normal);
+            if (play1.rightFlipper.Hit(this, ref normal, ref bounceFactor))
+                ballSpeed = Vector2.Reflect(ballSpeed, normal);
+            // Bounce 
+            ballSpeed *= bounceFactor; 
+
             if (ballCenter.Y > play1.game1.GraphicsDevice.Viewport.Height)
             {
                 this.Initialize();
                 play1.turns--; ;
             }
             for (int i = 0; i < play1.numPoints; i++)
-                play1.score += play1.points[i].In(this); 
+                play1.score += play1.points[i].In(this); 
+
 
             base.Update(gameTime);
         }
