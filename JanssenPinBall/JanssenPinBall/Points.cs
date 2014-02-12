@@ -85,8 +85,10 @@ namespace JanssenPinBall
             pointsTexture = new Texture2D[numTextures];
             for (int i = 0; i < numTextures; i++)
                 pointsTexture[i] = playScene.game1.Content.Load<Texture2D>(pointsTextureName[i]);
+
             textFont = playScene.game1.Content.Load<SpriteFont>(@"Tahoma");
             textPosition = pointsCenter - new Vector2(20, 20);
+
             pointsPosition.X = pointsCenter.X - pointsRadius;
             pointsPosition.Y = pointsCenter.Y - pointsRadius;
             pointsScale = pointsRadius / (pointsTexture[0].Width / 2.0f);
@@ -118,9 +120,7 @@ namespace JanssenPinBall
 
             // Draw the logo sprite at the logo position 
             playScene.spriteBatch.Draw(pointsTexture[whichTexture], pointsPosition, null, Color.White, 0.0f, Vector2.Zero, pointsScale, SpriteEffects.None, 1.0f);
-            playScene.spriteBatch.DrawString(textFont,
-            pointsValue.ToString(), textPosition, Color.Blue, 0,
-            Vector2.Zero, 2, SpriteEffects.None, 1.0f); 
+            playScene.spriteBatch.DrawString(textFont, pointsValue.ToString(), textPosition, Color.Blue, 0, Vector2.Zero, 2, SpriteEffects.None, 1.0f); 
         }
 
         /// <summary> 
@@ -132,7 +132,7 @@ namespace JanssenPinBall
         {
             int value = 0;
             Vector2 norm = pinBall.ballCenter - pointsCenter;
-            if (norm.Length() <= pointsRadius)
+            if (norm.Length() <= pointsRadius + pinBall.ballRadius)
             {
                 if (IN == false)
                     value = pointsValue;
@@ -145,6 +145,7 @@ namespace JanssenPinBall
                 whichTexture = 0;
             }
             return value;
-        } 
+        } 
+
     }
 }

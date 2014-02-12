@@ -36,6 +36,12 @@ namespace JanssenPinBall
         // Declare a speed Vector
         public Vector2 ballSpeed = Vector2.Zero;
 
+        // Declare gravity and friction factors
+        protected int gravityFactor;
+        protected float frictionFactor;
+
+        protected bool launched;
+
         public PinBall(Play play, Vector2 center)
             : base(play.game1)
         {
@@ -57,7 +63,10 @@ namespace JanssenPinBall
             ballRadius = ballTexture.Width / 2;
             ballPosition.X = ballCenter.X - ballRadius;
             ballPosition.Y = ballCenter.Y - ballRadius;
-            ballSpeed = new Vector2(-200.0f, -200.0f);
+            ballSpeed = new Vector2(0.0f, 0.0f);
+            gravityFactor = 2;
+            frictionFactor = 1.0f;
+            launched = false;
 
             base.Initialize();
         }
@@ -70,6 +79,20 @@ namespace JanssenPinBall
         {
             // TODO: Add your update code here
 
+            // Launch the ball
+            if (!launched)
+            {
+                KeyboardState keyboardState = Keyboard.GetState();
+                if (keyboardState.IsKeyDown(Keys.Down))
+                {
+                    ballSpeed.Y = -400f;
+                    ballSpeed.X = -100f;
+                    launched = true;
+                }
+            }
+
+
+            // Check collisions with window edges
             if (ballCenter.X - ballRadius < 0)
                 ballSpeed.X *= -1;
             if (ballCenter.Y - ballRadius < 0)
@@ -77,24 +100,33 @@ namespace JanssenPinBall
             if (ballCenter.X + ballRadius > play1.game1.GraphicsDevice.Viewport.Width)
                 ballSpeed.X *= -1;
             if (ballCenter.Y + ballRadius > play1.game1.GraphicsDevice.Viewport.Height)
-                ballSpeed.Y *= -1;
+                ballSpeed.Y *= -0.5f;
             ballCenter += ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
             ballPosition.X = ballCenter.X - ballRadius;
             ballPosition.Y = ballCenter.Y - ballRadius;
 
+            // Adjust ball speed
+            ballSpeed *= frictionFactor;
+            ballSpeed.Y += gravityFactor;
+
+            // Bouncing
             Vector2 normal = Vector2.Zero;
-            float bounceFactor = 1.0f;
+            float bounceFactor = 2.5f;
+            for (int i = 0; i < play1.numDrawBumpers; i++)
+                if (play1.bumpers[i].Hit(this, ref normal))
+                    ballSpeed = Vector2.Reflect(ballSpeed, normal);
             if (play1.leftFlipper.Hit(this, ref normal, ref bounceFactor))
                 ballSpeed = Vector2.Reflect(ballSpeed, normal);
             if (play1.rightFlipper.Hit(this, ref normal, ref bounceFactor))
                 ballSpeed = Vector2.Reflect(ballSpeed, normal);
             // Bounce 
-            ballSpeed *= bounceFactor; 
+            // ballSpeed *= bounceFactor; 
+
 
             if (ballCenter.Y > play1.game1.GraphicsDevice.Viewport.Height)
             {
                 this.Initialize();
-                play1.turns--; ;
+                play1.turns--;
             }
             for (int i = 0; i < play1.numPoints; i++)
                 play1.score += play1.points[i].In(this); 

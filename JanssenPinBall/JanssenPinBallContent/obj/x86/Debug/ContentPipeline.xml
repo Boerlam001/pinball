@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\BluePinBallLogo.xnb</Output>
-      <Time>2014-01-29T19:36:57.5077694-08:00</Time>
+      <Output>C:\Users\student\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\BluePinBallLogo.xnb</Output>
+      <Time>2014-02-12T12:05:51.6925332-08:00</Time>
     </Item>
     <Item>
       <Source>SilverBall50x50.png</Source>
@@ -16,17 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\SilverBall50x50.xnb</Output>
-      <Time>2014-01-29T19:36:57.5097695-08:00</Time>
-    </Item>
-    <Item>
-      <Source>Tahoma.spritefont</Source>
-      <Name>Tahoma</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Tahoma.xnb</Output>
-      <Time>2014-01-29T19:36:57.5107696-08:00</Time>
+      <Output>C:\Users\student\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\SilverBall50x50.xnb</Output>
+      <Time>2014-02-12T12:05:51.7393333-08:00</Time>
     </Item>
     <Item>
       <Source>Circle110Blue.png</Source>
@@ -34,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Circle110Blue.xnb</Output>
-      <Time>2014-01-30T21:58:26.5254577-08:00</Time>
+      <Output>C:\Users\student\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Circle110Blue.xnb</Output>
+      <Time>2014-02-12T12:05:51.7393333-08:00</Time>
     </Item>
     <Item>
       <Source>Circle110BlueGrad.png</Source>
@@ -43,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Circle110BlueGrad.xnb</Output>
-      <Time>2014-01-30T21:58:26.5264578-08:00</Time>
+      <Output>C:\Users\student\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Circle110BlueGrad.xnb</Output>
+      <Time>2014-02-12T12:05:51.7393333-08:00</Time>
     </Item>
     <Item>
       <Source>Circle110Black.png</Source>
@@ -52,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Circle110Black.xnb</Output>
-      <Time>2014-01-30T21:58:26.5244577-08:00</Time>
+      <Output>C:\Users\student\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Circle110Black.xnb</Output>
+      <Time>2014-02-12T12:05:51.7393333-08:00</Time>
     </Item>
     <Item>
       <Source>LeftFlipper120x30.png</Source>
@@ -61,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\LeftFlipper120x30.xnb</Output>
-      <Time>2014-01-30T21:58:26.5284579-08:00</Time>
+      <Output>C:\Users\student\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\LeftFlipper120x30.xnb</Output>
+      <Time>2014-02-12T12:05:51.7393333-08:00</Time>
     </Item>
     <Item>
       <Source>RightFlipper120x30.png</Source>
@@ -70,8 +61,35 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\RightFlipper120x30.xnb</Output>
-      <Time>2014-01-30T21:58:26.5284579-08:00</Time>
+      <Output>C:\Users\student\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\RightFlipper120x30.xnb</Output>
+      <Time>2014-02-12T12:05:51.7393333-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Tahoma.spritefont</Source>
+      <Name>Tahoma</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Tahoma.xnb</Output>
+      <Time>2014-02-12T12:05:51.7549333-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Background800x600.jpg</Source>
+      <Name>Background800x600</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Background800x600.xnb</Output>
+      <Time>2014-02-12T13:48:17.1847131-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Foreground800x600.png</Source>
+      <Name>Foreground800x600</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\student\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\Foreground800x600.xnb</Output>
+      <Time>2014-02-12T13:48:25.0595414-08:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -79,39 +97,39 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBallContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBallContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\kjanssen\Documents\Visual Studio 2010\Projects\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\student\pinball\JanssenPinBall\JanssenPinBallContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\student\pinball\JanssenPinBall\JanssenPinBall\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\student\pinball\JanssenPinBall\JanssenPinBallContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\student\pinball\JanssenPinBall\JanssenPinBall\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2010-08-23T13:41:18-07:00</Value>
+        <Value>2010-08-23T12:41:18-07:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2010-08-23T13:41:18-07:00</Value>
+        <Value>2010-08-23T12:41:18-07:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2010-08-23T13:41:18-07:00</Value>
+        <Value>2010-08-23T12:41:18-07:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2010-08-23T13:41:18-07:00</Value>
+        <Value>2010-08-23T12:41:18-07:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2010-08-23T13:41:18-07:00</Value>
+        <Value>2010-08-23T12:41:18-07:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2010-08-23T13:41:18-07:00</Value>
+        <Value>2010-08-23T12:41:18-07:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2014-01-29T19:31:28.4829503-08:00</Value>
+        <Value>2013-07-23T16:04:11.1552365-07:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

@@ -21,9 +21,17 @@ namespace JanssenPinBall
         public List<Points> points = new List<Points>();
         public int numPoints = 0;
         int numDrawPoints = 0;
+        public List<Bumper> bumpers = new List<Bumper>();
+        public int numDrawBumpers = 0;
 
         // Declare a sprite font for rendering the text 
         SpriteFont textFont;
+
+        // Declare a texture sprite to hold the background image
+        Texture2D backgroundTexture;
+
+        // Declare a texture sprite to hold the foreground image
+        Texture2D foregroundTexture;
 
         // Declare an integer to hold the number of points scored by the 
         // current player 
@@ -56,9 +64,16 @@ namespace JanssenPinBall
         public override void Initialize()
         {
             // TODO: Add your initialization code here
+            foregroundTexture = game1.Content.Load<Texture2D>("Foreground800x600");
+            backgroundTexture = game1.Content.Load<Texture2D>("Background800x600");
+
             pinBall = new PinBall(this, new Vector2(743, 535));
             game1.Components.Add(pinBall);
 
+            // Initialize bumpers
+
+
+            // Initialize points
             points.Add(new Points(this, new Vector2(200.0f, 300.0f), 40, 20, new string[] { "Circle110Blue", "Circle110BlueGrad", "Circle110BlueGrad" }));
             points.Add(new Points(this, new Vector2(350.0f, 325.0f), 50, 30, new string[] { "Circle110Blue", "Circle110BlueGrad", "Circle110BlueGrad" }));
             points.Add(new Points(this, new Vector2(500.0f, 300.0f), 40, 30, new string[] { "Circle110Blue", "Circle110BlueGrad", "Circle110BlueGrad" }));
@@ -78,7 +93,8 @@ namespace JanssenPinBall
 
             rightFlipper = new RightFlipper(this, new Vector2[] { new Vector2(500.0f, 500.0f), new Vector2(388.0f, 515.0f), new Vector2(500.0f, 530.0f),
                                             new Vector2(508.0f, 515.0f) }, new Vector2(500.0f, 515.0f), new Vector2(111, 15), "RightFlipper120x30");
-            game1.Components.Add(rightFlipper); 
+            game1.Components.Add(rightFlipper); 
+
 
             base.Initialize();
         }
@@ -109,9 +125,10 @@ namespace JanssenPinBall
             GraphicsDevice.Clear(Color.White);
 
             // TODO: Add your drawing code here
-            spriteBatch.Begin(SpriteSortMode.Texture, BlendState.AlphaBlend);
-            pinBall.Draw(gameTime);
+            spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend);
 
+            for (int i = 0; i < numDrawBumpers; i++)
+                bumpers[i].Draw(gameTime);
             for (int i = 0; i < numDrawPoints; i++)
                 points[i].Draw(gameTime);
 
@@ -119,7 +136,10 @@ namespace JanssenPinBall
             rightFlipper.Draw(gameTime);
 
             spriteBatch.DrawString(textFont, "Score: " + score, scoreTextPosition, Color.Black, 0, Vector2.Zero, 1.0f, SpriteEffects.None, 1);
-            spriteBatch.DrawString(textFont, "Turns: " + turns, turnsTextPosition, Color.Black, 0, Vector2.Zero, 1.0f, SpriteEffects.None, 1); 
+            spriteBatch.DrawString(textFont, "Turns: " + turns, turnsTextPosition, Color.Black, 0, Vector2.Zero, 1.0f, SpriteEffects.None, 1);
+
+            pinBall.Draw(gameTime);
+
             spriteBatch.End();
 
             base.Draw(gameTime);

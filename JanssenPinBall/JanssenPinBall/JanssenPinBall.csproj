@@ -107,6 +107,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bumper.cs" />
     <Compile Include="Finish.cs" />
     <Compile Include="Flipper.cs" />
     <Compile Include="LeftFlipper.cs" />

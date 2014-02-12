@@ -21,7 +21,8 @@ namespace JanssenPinBall
             : base(play, points, pivot, origin, textureName)
         {
             // TODO: Construct any child components here 
-        } 
+        } 
+
 
         /// <summary>
         /// Allows the game component to perform any initialization it needs to before starting

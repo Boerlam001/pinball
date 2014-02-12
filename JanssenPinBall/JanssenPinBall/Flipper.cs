@@ -142,6 +142,7 @@ namespace JanssenPinBall
 
             playScene.spriteBatch.Draw(flipperTexture, flipperPivot, null,
             Color.White, -flipperAngle, flipperOrigin, 1.0f, SpriteEffects.None, 1.0f);
-        } 
+        } 
+
     }
 }
